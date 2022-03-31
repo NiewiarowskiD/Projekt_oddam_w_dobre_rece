@@ -1,0 +1,27 @@
+@import "src/scss/settings/colors";
+
+.first_page{
+  width: 90vw;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+.home_container{
+  width: 885px;
+  display:flex;
+  justify-content: space-between;
+
+}
+
+.home_image{
+  width: 885px;
+
+}
+
+.right_welcome_container{
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+}

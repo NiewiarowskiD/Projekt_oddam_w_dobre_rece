@@ -1,0 +1,13 @@
+@import "src/scss/settings/fonts";
+
+
+.login_container{
+  display: inline-block;
+  font-family: $font-base;
+
+    li {
+      list-style-type: none;
+
+    }
+
+}
