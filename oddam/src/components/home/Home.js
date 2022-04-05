@@ -3,7 +3,7 @@ import "./_home.scss";
 import Menu from "./Menu";
 import Welcome from "./Welcome";
 import Login from "./Login";
-import home_image from "../../../src/assets/images/Home-Hero-Image.jpeg";
+import home_image from "../../../src/assets/images/Home-Hero-Image.png";
 
 function Home(){
 

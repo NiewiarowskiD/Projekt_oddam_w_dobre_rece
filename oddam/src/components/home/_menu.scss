@@ -1,14 +1,33 @@
 
+@import "src/scss/settings/fonts";
+@import "src/scss/settings/colors";
 
+.menu_container{
+  width: 900px;
+  display: flex;
+  justify-content: flex-end;
+  margin-right:30px;
+
+}
 
 .menu_list{
 
-  li {
-    list-style-type: none;
+  width: 683px;
 
+  li {
+
+    font-size:18px;
+    margin-bottom: 9px;
+    margin-top:  9px;
+    padding-left: 45px;
+    list-style-type: none;
+    display: inline-block;
+    font-family: $font-second-regular;
+    color: $color4;
   }
 
   li:hover{
-    color: white;
+      color:black;
+      cursor: pointer;
+    }
   }
-}

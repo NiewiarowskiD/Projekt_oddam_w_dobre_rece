@@ -1,13 +1,49 @@
 @import "src/scss/settings/fonts";
+@import "src/scss/settings/colors";
 
 
 .login_container{
-  display: inline-block;
-  font-family: $font-base;
+  font-family: $font-second-regular;
+  color: $color4;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 100px;
 
     li {
+      display: flex;
+      justify-content: center;
       list-style-type: none;
+      text-decoration: none;
+      font-size: 13px;
+      width: 90px;
+      text-align: center;
+      padding:10px;
 
+        a{
+          text-decoration: none;
+          color: $color4;
+          height: 13px;
+        }
     }
 
+  ul{
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    li:hover{
+        color: black !important;
+        border: 0.75px solid #FAD648;
+        cursor: pointer;
+      }
+    }
+
+
+  li:last-child{
+    text-align: center;
+  }
+
 }
+

@@ -16,12 +16,20 @@
 }
 
 .home_image{
-  width: 885px;
+  width: 800px;
+  left: -483px;
 
 }
 
 .right_welcome_container{
-  width: 800px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.left_welcome_container{
+ padding-top: 69px;
 }
