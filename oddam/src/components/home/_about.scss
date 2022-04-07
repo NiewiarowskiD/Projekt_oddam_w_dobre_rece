@@ -1,0 +1,55 @@
+@import "src/scss/settings/fonts";
+@import "src/scss/settings/colors";
+
+.about_container{
+    width: 1700px;
+    height: 935px;
+    background-color: $color6;
+    margin-top: 50px;
+    display: flex;
+
+}
+.about_text_container{
+    width: 865px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.about_text{
+    width: 519px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    h1{
+        margin-top: 250px;
+        font-family: $font-second-regular;
+    }
+
+    p{
+        font-size: 30px;
+        fontfamily: $font-second-regular;
+    }
+
+
+}
+
+.about_image_container{
+    width: 865px;
+    height: 935px;
+    object-fit: contain;
+    background-image: url("/assets/images/People.png");
+}
+
+
+.decoration2{
+    width: 200px;
+    padding: 15px;
+    padding-left:150px;
+}
+
+.signature{
+    width: 200px;
+    padding-left:300px;
+}

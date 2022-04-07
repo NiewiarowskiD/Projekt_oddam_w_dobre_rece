@@ -1,7 +1,7 @@
 @import "src/scss/settings/colors";
 
 .first_page{
-  width: 90vw;
+  width: 700px;
   display: flex;
   justify-content: space-between;
 
@@ -9,9 +9,9 @@
 
 
 .home_container{
-  width: 885px;
   display:flex;
-  justify-content: space-between;
+  flex-direction: column;
+
 
 }
 
@@ -22,6 +22,7 @@
 }
 
 .right_welcome_container{
+  margin-left:-20px;
   display: flex;
   flex-direction: column;
   justify-content: center;

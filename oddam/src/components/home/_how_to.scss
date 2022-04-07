@@ -1,0 +1,97 @@
+@import "src/scss/settings/fonts";
+@import "src/scss/settings/colors";
+
+
+.how_to_container{
+  width: 1700px;
+  height: 674px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.how_to_1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header_how_to{
+  text-align: center;
+  font-family: $font-second-regular;
+  font-size: 38px;
+  color: $color5;
+  margin-top: 55px;
+
+}
+
+.decoration{
+  width: 200px;
+}
+
+.icon{
+  height: 83px;
+  width: 83px;
+}
+
+
+.how_to_2{
+  background-color: $color6;
+  height: 325px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.ht_describe_container{
+  width: 130px;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  margin-top: 40px;
+
+}
+
+.h1_how_to{
+  font-family: $font-second-regular;
+  color: $color5;
+  font-size: 18px;
+}
+
+.style_border{
+  width: 70px;
+  border: solid 0.5px black;
+}
+
+.p_how_to{
+  font-family: $font-second-regular;
+  color: $color5;
+  font-size: 16px;
+  text-align: center;
+}
+
+.how_to_3{
+  display: flex;
+  justify-content: center;
+}
+
+.oddaj_rzeczy_button{
+  height: 120px;
+  width: 310px;
+  border: solid 0.75px $color4;
+  font-family: $font-second-light;
+  font-size: 36px;
+  text-align: center;
+  margin-top: 50px;
+
+
+  .p{
+    margin: 0;
+  }
+
+
+
+}
+

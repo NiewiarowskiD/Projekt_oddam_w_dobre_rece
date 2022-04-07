@@ -1,0 +1,43 @@
+@import "src/scss/settings/reset";
+@import "src/scss/settings/fonts";
+@import "src/scss/settings/colors";
+
+
+
+.three_columns_container{
+  width: 1700px;
+  height: 384px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  background-image: url("/assets/images/3_columns_background.png");
+  color: $color2;
+}
+
+
+.column{
+  width: 334px;
+  height: 252px;
+}
+
+.number_column{
+  margin: 0;
+  font-family: $font-second-light;
+  font-size: 90px;
+
+  opacity: 1;
+}
+
+.h2_column{
+  font-family: $font-second-regular;
+  font-size: 18px;
+}
+
+.p_column{
+  font-family: $font-base;
+}
+
+
+
+

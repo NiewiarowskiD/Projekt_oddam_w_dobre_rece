@@ -3,7 +3,12 @@ import "./_home.scss";
 import Menu from "./Menu";
 import Welcome from "./Welcome";
 import Login from "./Login";
+import Three_colums from "./Three_colums";
+import How_to from "./How_to";
 import home_image from "../../../src/assets/images/Home-Hero-Image.png";
+import About from "./About";
+
+import Carousel_app from "./Carousel";
 
 function Home(){
 
@@ -22,6 +27,10 @@ function Home(){
                 </div>
 
             </div>
+            <Three_colums />
+            <How_to />
+            <About />
+
         </div>
     )
 
